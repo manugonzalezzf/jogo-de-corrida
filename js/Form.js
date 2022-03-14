@@ -34,6 +34,11 @@ class Form {
         var message = `ola ${this.input.value()},</br>
         espere outro jogador`
         this.greeting.html(message)
+        playerCount ++;
+        player.name = this.input.value();
+        player.index = playerCount;
+        player.addPlayer();
+        player.updateCount(playerCount);
       }
     )
   }

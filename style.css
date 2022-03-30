@@ -18,6 +18,11 @@ canvas {
   height: 80px;
 }
 
+.gameTitleAfterEffect{
+  width: 25%;
+  height: 80px;
+}
+
 .greeting{
   font-size: 40px;
   color: white;
@@ -64,3 +69,32 @@ canvas {
   transition-duration: 0.4s;
   outline: none;
 }
+.resetButton {
+ width: 60px;
+ height: 60px;
+ background-image: url(./assets/reset.png);
+ background-size: cover;
+ border-radius: 30px;
+ display: inline-block;
+ cursor: pointer;
+ transition-duration: 0.4s;
+ outline: none;
+}
+
+.resetText {
+font-size: 25px;
+color: white;
+font-family: vollkorn;
+text-align: center;
+text-shadow: -1px 1px 0 #ff1744,
+              1px 1px 0 #ff1744,
+              1px -1px 0 #ff1744,
+            -1px -1px 0 #ff1744;
+}
+
+.leadersText{
+   font-size: 20px;
+    color: white;
+   font-family: vollkorn;
+      text-align: center;
+     }

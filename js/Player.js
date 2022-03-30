@@ -57,7 +57,7 @@ class Player {
       positionY:this.positionY,
       rank: this.rank,
       score: this.score,
-      fuel: this.fuel
+      life: this.life
     })
   }
   getDistance(){

@@ -40,7 +40,7 @@ class Form {
         player.addPlayer();
         player.updateCount(playerCount);
         player.getCount()
-        player.getDistence()
+        player.getDistance()
       }
     )
   }

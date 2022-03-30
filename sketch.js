@@ -11,9 +11,9 @@ var track
 var allPlayers
 var powerCoins, powerCoinsimg
 var fuels, fuelsimg
-var obs1, obs1img
-var obs2, obs2img
+var obstacles, obs1img,obs2img
 var lifeImg
+var boomimg
 
 function preload() {
   backgroundImage = loadImage("./assets/planodefundo.png");
@@ -27,6 +27,7 @@ function preload() {
   obs1img= loadImage("./assets/obstacle1.png")
   obs2img= loadImage("./assets/obstacle2.png")
   lifeImg= loadImage("./assets/life.png")
+  boomimg= loadImage("./assets/blast.png")
 }
 
 function setup() {
@@ -47,7 +48,9 @@ function draw() {
   if (gameState == 1){
     game.play()
   }
-
+ if (gameState==2) {
+   game.end()
+ }
   
 }
 
